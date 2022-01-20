@@ -1,0 +1,529 @@
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
+    
+    body {
+        line-height: 1;
+    }
+    
+    ol,
+    ul {
+        list-style: none;
+    }
+    
+    blockquote,
+    q {
+        quotes: none;
+    }
+    
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    *hr {
+        height: 0.5px;
+        color: #E1E1E1;
+        border: 0 none;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+    body {
+        font-family: 'Roboto', sans-serif;
+        background-color: white;
+        overflow-x: hidden;
+    }
+    
+    .bar {
+        margin: auto;
+        width: 800px;
+        height: 1200px;
+        border: 1px solid black;
+        margin-top: 30px;
+    }
+    
+    .box1 {
+        position: absolute;
+        width: 300px;
+        height: 65px;
+        margin-top: 90px;
+        margin-left: 20px;
+        border-left: 3px solid #5191FA;
+    }
+    
+    .bxt {
+        height: 20px;
+        width: 290px;
+        margin-left: 10px;
+    }
+    
+    .bxt h1 {
+        font: 20px arial;
+        font-weight: bold;
+        color: #000000;
+    }
+    
+    .box2 {
+        position: absolute;
+        width: 400px;
+        height: 15px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    
+    .box2 h1 {
+        font: 18px arial;
+        font-weight: bold;
+        color: #CC0033;
+    }
+    
+    .box3 {
+        position: absolute;
+        width: 250px;
+        height: 15px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    
+    .box3 h1 {
+        font: 13px arial;
+        font-weight: normal;
+        color: black;
+    }
+    
+    .garis {
+        position: absolute;
+        width: 60px;
+        height: 0px;
+        border: 2px solid #5191FA;
+        transform: rotate(90deg);
+        margin-left: -30px;
+        margin-top: 10px;
+    }
+    
+    .bar2 {
+        width: 400px;
+        height: 150px;
+        margin-left: 398px;
+    }
+    .bar2 h1{
+        padding-top: 2.5px;
+    }
+    
+    .koma {
+        width: 120px;
+        height: 150px;
+        float: right;
+        margin-top: -150px;
+        margin-right: -20px;
+    }
+    
+    .kotbir {
+        position: absolute;
+        width: 180px;
+        height: 30px;
+        background: #5191FA;
+        border-radius: 3px;
+        margin-top: -65px;
+        margin-left: 120px;
+    }
+    
+    .kotbir h1 {
+        font: 25px arial;
+        font-weight: bold;
+        color: white;
+        margin-left: 10px;
+    }
+    
+    .bar3 {
+        position: absolute;
+        width: 300px;
+        height: 110px;
+        margin-top: -80px;
+        margin-left: 20px;
+    }
+    
+    .dp {
+        width: 190px;
+        height: 20px;
+    }
+    
+    .dp h1 {
+        font: 20px arial;
+        font-weight: bold;
+        color: #000000;
+    }
+    
+    .nm1 {
+        position: absolute;
+        width: 250px;
+        height: 18px;
+        margin-top: 5px;
+    }
+    
+    .nm1 h1 {
+        font: 15px arial;
+        font-weight: normal;
+        color: black;
+    }
+    
+    .nm2 {
+        position: absolute;
+        width: 250px;
+        height: 18px;
+        margin-top: 5px;
+    }
+    
+    .nm2 h1 {
+        font: 15px arial;
+        font-weight: normal;
+        color: black;
+    }
+    
+    .nm3 {
+        position: absolute;
+        width: 250px;
+        height: 18px;
+        margin-top: 5px;
+    }
+    
+    .nm3 h1 {
+        font: 15px arial;
+        font-weight: normal;
+        color: black;
+    }
+    
+    .bar4 {
+        position: absolute;
+        width: 300px;
+        height: 110px;
+        margin-top: 60px;
+        margin-left: 400px;
+    }
+    
+    .dpm {
+        width: 250px;
+        height: 20px;
+    }
+    
+    .dpm h1 {
+        font: 20px arial;
+        font-weight: bold;
+        color: #000000;
+        margin-top: -170px;
+    }
+    
+    .dpm1 {
+        position: absolute;
+        width: 250px;
+        height: 18px;
+        margin-top: -165px;
+    }
+    
+    .dpm1 h1 {
+        font: 15px arial;
+        font-weight: normal;
+        color: black;
+    }
+    
+    .bar5 {
+        position: absolute;
+        width: 300px;
+        height: 110px;
+        margin-top: 230px;
+        margin-left: 20px;
+    }
+    
+    .detp {
+        width: 190px;
+        height: 20px;
+    }
+    
+    .detp h1 {
+        font: 20px arial;
+        font-weight: bold;
+        color: #000000;
+    }
+    
+    .detp2 {
+        position: absolute;
+        width: 92px;
+        height: 18px;
+        margin-top: 10px;
+    }
+    
+    .detp3 {
+        position: absolute;
+        width: 100px;
+        height: 18px;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    
+    .detp3 h1 {
+        font: 15px arial;
+        font-weight: normal;
+        color: black;
+    }
+    
+    .detp2 h1 {
+        font: 15px arial;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .bar6 {
+        position: absolute;
+        height: 20px;
+        width: 590px;
+        margin-top: -120px;
+        margin-left: 20px;
+    }
+    
+    .bar6 h1 {
+        font: 20px arial;
+        font-weight: bold;
+        color: #000000;
+    }
+    
+    .bar7 {
+        position: absolute;
+        width: 755px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    
+    #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        color: #000000;
+    }
+    
+    .th h1 {
+        color: #000000;
+    }
+    
+    #customers td,
+    #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+    
+    #customers tr:nth-child(even) {
+        background-color: white
+    }
+    
+    #customers tr:hover {
+        background-color: #ddd;
+    }
+    
+    #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        color: #000000;
+        font-weight: bold;
+        background: #C4C4C4;
+    }
+    .bar10 {
+        position: absolute;
+        height: 20px;
+        width: 290px;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    .bar10 h1 {
+        font: 15px arial;
+        font-style: italic;
+        font-weight: bold;
+        color: #000000;
+    }
+    .isinoted {
+        position: absolute;
+        width: 700px;
+        height: 120px;
+        margin-top: -5px;
+        margin-left: 35px;
+    }
+    
+    .isinoted ol li {
+        font: 15px arial;
+        font-style: italic;
+        font-weight: normal;
+        margin-top: 10px;
+        color: #000000;
+        list-style-type: lower-alpha;
+        margin-left: 30px;
+    }
+
+
+    .bar8 {
+        position: absolute;
+        height: 20px;
+        width: 290px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    .bar8 h1 {
+        font: 20px arial;
+        font-weight: bold;
+        color: #000000;
+    }
+    
+    .bar9 {
+        position: absolute;
+        width: 700px;
+        height: 100px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .bar9 table{
+        font-size: 15px;
+    }
+    #customerss {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        color: #000000;
+    }
+    
+    .th1 h1 {
+        color: #000000;
+    }
+    
+    #customerss td,
+    #customerss th {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+    
+    #customerss tr:nth-child(even) {
+        background-color: white
+    }
+    
+    #customerss tr:hover {
+        background-color: #ddd;
+    }
+    
+    #customerss th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        color: #000000;
+        font-weight: bold;
+        background: #C4C4C4;
+        font-size: 15px;
+    }

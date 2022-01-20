@@ -1,0 +1,362 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* style */
+
+*hr {
+    height: 0.5px;
+    color: #E1E1E1;
+    border: 0 none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    overflow-x: hidden;
+}
+/* Kotak pembungkus */
+
+.bar {
+    margin: auto;
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+    margin-top: 30px;
+}
+/* Kotak biru (K-TRIP e-TIKET) */
+
+.bir {
+    position: absolute;
+    width: 210px;
+    height: 30px;
+    background: #5191FA;
+    border-radius: 6px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.bir h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 3px;
+}
+/* container kode booking, tanggal, noted */
+
+.container {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+/* garis biru */
+.cont{
+    border-left: 4px solid #5191FA; 
+}
+/* Kode booking */
+
+.bok h1 {
+    font: 20px arial;
+    font-weight: bold;
+    padding-left: 10px;
+}
+/* Tanggal */
+.date h1 {
+    font: 15px arial;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+/* noted */
+.noted h1 {
+    font: 15px arial;
+    font-style: italic;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.isi h1 {
+    font: 13px arial;
+    font-weight: normal;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+/* maskot */
+
+.mas {
+    position: absolute;
+    width: 200px;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+.terimakasih {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    background: #5191FA;
+    border-radius: 6px;
+    margin-left: 470px;
+    margin-top: -170px;
+}
+
+.terimakasih h1 {
+    font: 15px arial;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+/* box data pemesan */
+
+.dp {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: -40px;
+}
+/* data pemesan */
+
+.boxdp {
+    position: absolute;
+    width: 180px;
+    height: 20px;
+}
+
+.boxdp h1 {
+    font: 20px arial;
+    font-weight: bold;
+    color: #000000;
+}
+/* nama */
+
+.nama {
+    position: absolute;
+    width: 180px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+.nama h1 {
+    font: 13px arial;
+    font-weight: normal;
+    color: #000000;
+}
+/* email */
+
+.email {
+    position: absolute;
+    width: 180px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+.email h1 {
+    font: 13px arial;
+    font-weight: normal;
+    color: #000000;
+}
+/* telp */
+
+.telp {
+    position: absolute;
+    width: 180px;
+    height: 15px;
+    margin-top: 10px;
+}
+
+.telp h1 {
+    font: 13px arial;
+    font-weight: normal;
+    color: #000000;
+}
+/* paket trip */
+
+.trp {
+    position: absolute;
+    width: 180px;
+    height: 20px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.trp h1 {
+    font: 20px arial;
+    font-weight: bold;
+    color: #000000;
+}
+/* tabel */
+
+.tabel {
+    position: absolute;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: #000000;
+}
+
+.th h1 {
+    color: #000000;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#customers tr:nth-child(even) {
+    background-color: white
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    background: #C4C4C4;
+}
